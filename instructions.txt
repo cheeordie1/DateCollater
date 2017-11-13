@@ -1,0 +1,20 @@
+1. Open the excel file you want to collate.
+
+2. If it is not .xlsm, export to .xlsm and re-open
+
+3. Developer > Visual Basic
+
+4. File > Import File > DateCollater.bas
+
+5. In the Immediate Window inside the Visual Basic Window, type Collater and click enter
+   (This method will give you debug info)
+   
+   or
+
+   Exit the Visual Basic Window, Click Developer > Macros > Collater > Run
+
+6. Your Test Names are not consistent. I sorted the names in the Debug so you can see where the names
+   are inconsistent and fix it. It won't affect the program, though.
+
+7. When there is a table from 1899, it means you have a row with no Date. Fill that in.
+
